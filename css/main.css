@@ -1,0 +1,181 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 500px;
+    height: 240px;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #556983;
+    background-image: url("./../img/otdyh-zastavka.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header-title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.3;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Main */
+
+.main-title {
+    margin: 0;
+    margin-top: 80px;
+    margin-bottom: 88px;
+    
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+
+    text-align: center;
+}
+
+/* card */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin-bottom: 30px;
+    max-width: 540px;
+    background-color: white;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-link {
+    padding: 20px;
+    display: block;
+}
+
+.nomb {
+    margin-bottom: 0;
+}
+
+.card-img {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    margin: 0;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+}
+
+/* Footer */
+
+.footer {
+    margin-top: 80px;
+    padding-top: 45px;
+    padding-bottom: 130px;
+    background: #1E4776;
+    color: white;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-col {
+    max-width: 350px;
+    flex-grow: 1;
+}
+
+.footer-copyright {
+    color: #7E9EC9;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.footer-copyright p {
+    font-style: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.number {
+    padding-top: 20px;
+}
+
+.footer-btn {
+    display: inline-block;
+
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 50px;
+
+    line-height: 44px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-btn:hover {
+    background-color: #fff;
+    color: #1E4776;
+    transition: all 0.2s ease-in;
+}
+
+.footer-contacts {
+    margin-top: 8px;
+}
+
+.footer-contacts p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    color: #7E9EC9;
+    
+    margin: 15px 0;
+}
